@@ -1,16 +1,3 @@
-/*!
-HOJA DE ESTILOS CREADA PARA REUMA - HUGO ANGULO
-ESTANDARES DE CODIFICACION PARA CSS -= HUGO ANGULO
-Ejemplo
-.clase
-{
-  atributo;
-  atributo,
-}
-MODIFICADA POR :
-LEONARDO OMAÑA
-EN ESTE PROYECTO SE TOMÓ LA DECISIÓN DE USAR LOS COLORES DE LA UNIVERSIDAD, COMO LO SON EL AZUL OSCURO
-*/
 body
 {
   padding-top: 54px;
@@ -37,14 +24,14 @@ body
 {
   margin-bottom: 30px;
 }
-/* COLOR PRINCIPAL - LEONARDO OMAÑA */
+
 .color-poli
-{ /* CORRECCIÓN DE ACUERDO A LOS ESTANDARES DE CODIFICACION DECIDIDOS VER NOTA   - HUGO ANGULO */
+
   background: rgb(13, 49, 89) !important;
 }
-/* COLOR SECUNDARIO - LEONARDO OMAÑA*/
+
 .color-poli-secundario
-/* CORRECCIÓN DE ACUERDO A LOS ESTANDARES DE CODIFICACION DECIDIDOS VER NOTA   - HUGO ANGULO */
+
 {
   background: #3d518c !important;
 }
@@ -54,11 +41,11 @@ body
   background-color: #3d518c;
   border-color: #3d518c;
 }
-.color-poli-secundario:hover/* AMPLIAR CLASE: Efecto mouse over a botonos con la clase y cambiar color de la letra para que resalte mejor - HUGO ANGULO */
+.color-poli-secundario:hover
 {
   background: rgb(13, 49, 89) !important;
 }
-/* FORMAS DE AYUDAR HORIZONTAL - HUGO ANGULO*/
+
 .card-horizontal
 {
   position: relative;
@@ -73,30 +60,28 @@ body
   border: 1px solid rgba(0,0,0,.125);
   border-radius: .25rem;
 }
-/* TEXTO BLANCO - LEONARDO OMAÑA*/
+
 .text-white
-{ /* CORRECCIÓN DE ACUERDO A LOS ESTANDARES DE CODIFICACION DECIDIDOS VER NOTA   - HUGO ANGULO */
+
   color: white;
 }
-/* COLOR DE FONDO GENERAL - LEONARDO OMAÑA*/
+
 .color-fondo
-{/* CORRECCIÓN DE ACUERDO A LOS ESTANDARES DE CODIFICACION DECIDIDOS VER NOTA   - HUGO ANGULO */
+{
   background: rgb(243, 243, 243);
 }
-/* OPACIDAD DE LA IMAGEN DEL CARRUSEL - LEONARDO OMAÑA*/
+
 .opacidad
-{/* CORRECCIÓN DE ACUERDO A LOS ESTANDARES DE CODIFICACION DECIDIDOS VER NOTA   - HUGO ANGULO */
+{
   opacity: 0.8;
 }
-/* TEXTO COLOR POLO - LEONARDO OMAÑA */
+
 .text-poli
-{/* CORRECCIÓN DE ACUERDO A LOS ESTANDARES DE CODIFICACION DECIDIDOS VER NOTA   - HUGO ANGULO */
+{
   color: rgb(13, 49, 89);
 }
 
 
-
-/*------LOGIN ADMIN-------HUGO ANGULO */
 
     #login-form .input-group, #login-form .form-group {
         margin-top: 10px;
@@ -111,7 +96,7 @@ body
     }
 
 
-/*-------ADMIN CSS - HUGO ANGULO---*/
+
 	.table-wrapper {
         background: #fff;
         padding: 20px 25px;
@@ -242,7 +227,7 @@ body
         margin-top: 10px;
         font-size: 13px;
     }    
-	/* Custom checkbox */
+
 	.custom-checkbox {
 		position: relative;
 	}
