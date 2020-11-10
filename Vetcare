@@ -28,8 +28,10 @@
           <th class="text-center">Telefono</th>
           <th class="text-center">Correo</th>
           <th class="text-center">Dirección</th>
-          <th class="text-center">Opciones</th>
-      </tr>
+          <th class="text-center">Barrio</th>
+                    <th class = "text-center"> Ciudad>/th>
+           <th class = "text-center"> Opciones </th>
+     </tr>
   </thead>
   <tbody class="user_list ">
     <tr>
