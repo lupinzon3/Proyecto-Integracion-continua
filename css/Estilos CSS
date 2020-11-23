@@ -1,73 +1,73 @@
-/* General */
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
+/ * General * /
+cuerpo {
+  margen: 0;
+  acolchado: 0;
+  familia de fuentes: 'Roboto', sans-serif;
+  alineación de texto: centro;
 }
 
-/* Input Forms*/
-input[type="text"], input[type="password"],select{
-  outline: none;
-  padding: 6px;
-  display: block;
-  width: 300px;
-  border-radius: 3px;
-  border: 1px solid #eee;
-  margin: 20px auto;
+/ * Ingresar formularios * /
+entrada [tipo = "texto"], entrada [tipo = "contraseña"], seleccione {
+  esquema: ninguno;
+  relleno: 7px;
+  bloqueo de pantalla;
+  ancho: 299px;
+  radio del borde: 3px;
+  borde: 1px sólido #eee;
+  margen: 20px automático;
 }
 
-input[type="submit"] {
-  padding: 20px;
-  color: #f0f8ff;
-  background: #d86a18;
-  width: 320px;
-  margin: 20px auto;
-  margin-top: 0;
-  border: 0;
-  border-radius: 3px;
-  cursor: pointer;
+input [type = "submit"] {
+  relleno: 20px;
+  color: # f0f8ff;
+  fondo: # d86a18;
+  ancho: 320px;
+  margen: 20px automático;
+  margen superior: 0;
+  borde: 0;
+  radio del borde: 3px;
+  cursor: puntero;
 }
-input[type="submit"]:hover {
-  background-color: #00ffff;
-}
-
-/*
-.login select{
-
-	display: inline-block;
-	width: 100%;
-	cursor: pointer;
-  	padding: 7px 10px;
-  	height: 42px;
-  	outline: 0; 
-  	border: 0;
-	border-radius: 0;
-	background: #F0F8FF;
-	font-size: 2em;
-	font-family: 
-	'Quicksand', sans-serif;
-	border:2px solid rgba(0,0,0,0.2);
-    border-radius: 12px;
-    position: relative;
-    transition: all 0.25s ease;
+input [type = "submit"]: hover {
+  color de fondo: # 00ffff;
 }
 
+/ *
+.login seleccione {
 
-.login select:hover{
-	background: #B1E8CD;
+	pantalla: bloque en línea;
+	ancho: 98%;
+	cursor: puntero;
+  	relleno: 7px 10px;
+  	altura: 42px;
+  	contorno: 0; 
+  	borde: 0;
+	radio del borde: 0;
+	fondo: # F0F8FF;
+	tamaño de fuente: 2em;
+	Familia tipográfica: 
+	'Arenas movedizas', sans-serif;
+	borde: rgba sólido de 2px (0,0,0,0.2);
+    radio del borde: 12px;
+    posición: relativa;
+    transición: todos los 0,25 segundos de facilidad;
 }
-*/
 
-/* Header */
-header {
-  border-bottom: 2px solid #eee;
-  padding: 20px 0;
-  margin-bottom: 10px;
-  width: 90%;
-  text-align: center;
+
+.login select: hover {
+	fondo: # B1E8CD;
 }
-header a {
-  text-decoration: none;
-  color: #333;
+* /
+
+/ * Encabezado * /
+encabezado {
+  borde inferior: 2px sólido #eee;
+  relleno: 20px 0;
+  margen inferior: 10px;
+  ancho: 90%;
+  alineación de texto: centro;
+}
+encabezado a {
+  decoración de texto: ninguna;
+  color: # 333;
 }
